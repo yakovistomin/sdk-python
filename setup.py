@@ -20,8 +20,8 @@ REQUIRES_PYTHON = ">=3.7.0"
 VERSION = "0.5.9.6"
 
 REQUIRED = [
-    "protobuf==3.19.1",
-    "grpcio-tools==1.42.0",
+    "protobuf>=3.19.1",
+    "grpcio-tools>=1.42.0",
     "grpcio",
     "asyncio",
     "aiohttp",
